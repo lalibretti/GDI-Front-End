@@ -1,0 +1,36 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%;
+    width: 40%;
+    padding: 5%;
+}
+.title {
+    padding: 2em;
+    background-color: #BF4E49;
+    color: #fff;
+}
+
+h1, p {
+    text-align: center;
+}
+p {
+    padding: 2%;
+}
+
+.outer-box {
+    padding: 5%;
+    background-color: #2A4758;
+}
+.content-box {
+    background-color: #fff;
+}
+
+body {
+    background-color: #2A4758;
+}
+.button {
+    padding: 5%;
+   
+}
