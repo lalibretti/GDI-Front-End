@@ -9,7 +9,7 @@
     "http-errors": "^1.7.2"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "name": "gdi-pathways-quiz",
   "version": "1.0.0",
