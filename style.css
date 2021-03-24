@@ -37,3 +37,6 @@ body {
 .skills {
     float: left;
 }
+.container {
+    margin:5%
+}
