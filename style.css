@@ -15,6 +15,9 @@ img {
 h1, p {
     text-align: center;
 }
+h2 {
+    padding: 2%;
+}
 p {
     padding: 2%;
 }
@@ -30,7 +33,7 @@ p {
 body {
     background-color: #2A4758;
 }
-.button {
-    padding: 5%;
-   
+
+.skills {
+    float: left;
 }
