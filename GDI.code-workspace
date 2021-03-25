@@ -7,5 +7,7 @@
 			"path": "../gdi-pathways-quiz/images"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "GDI-Front-End"
+	}
 }
