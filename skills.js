@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   function fetchData() {
-    fetch('http://localhost:5000/api/path/Frontend')
+    fetch('https://gdi-backend.herokuapp.com/api/path/Frontend')
     .then(resp => resp.json())
     .then(data => renderSkills(data)).catch((err) => {
       handleError(err);

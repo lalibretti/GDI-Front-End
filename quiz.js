@@ -44,7 +44,7 @@ class Quiz {
     // render 'thank you for completing the quiz then go to results'
     const button = document.querySelector("#button");
     button.disabled = false;
-    button.onclick = () => location.href = 'http://localhost:3000/results.html';
+    button.onclick = () => location.href = '  https://gdi-backend.herokuapp.com/results.html';
     const thanks = document.createElement('h2');
     const proceed = document.createElement('p');
     proceed.innerHTML = 'Please proceed to view the results of your quiz.'
@@ -57,7 +57,7 @@ class Quiz {
     document.addEventListener('DOMContentLoaded', () => {
       let quiz = this;
       function fetchData() {
-        fetch('http://localhost:5000/api/questions')
+        fetch('https://gdi-backend.herokuapp.com/api/questions')
         .then(resp => resp.json())
         .then(data => {
           quiz.questions = data;

@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function fetchData() {
     const field = localStorage.getItem('bestField');
     console.log(field);
-    fetch(`http://localhost:5000/api/path/${field}`)
+    fetch(`https://gdi-backend.herokuapp.com/${field}`)
     .then(resp => resp.json())
     .then(data => renderDescription(data)).catch((err) => {
       handleError(err);
